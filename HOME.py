@@ -20,7 +20,7 @@ with col2:
         f"<div style='text-align: center;'><img src='{url2}' width='100'></div>",
         unsafe_allow_html=True
     )
-        st.markdown(
+    st.markdown(
         f"<div style='text-align: center;'><img src='{url3}' width='100'></div>",
         unsafe_allow_html=True
     )
