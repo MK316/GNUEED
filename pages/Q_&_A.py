@@ -14,4 +14,4 @@ Just click and start contributing.
 padlet_url = "https://padlet.com/mirankim316/GNU_EED_QA"
 
 # Display the Padlet
-components.iframe(padlet_url, height=600, scrolling=True)
+components.iframe(padlet_url, height=800, scrolling=True)
