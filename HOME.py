@@ -5,6 +5,6 @@ st.write("This application provides curated microteaching video samples to suppo
 st.caption("Under Construction; since June 9, 2025")
 
 url1="https://github.com/MK316/GNUEED/raw/main/images/MThome.png"
-url2="https://github.com/MK316/GNUEED/raw/main/images/GNU.png"
+url2="https://github.com/MK316/GNUEED/raw/main/images/gnu.png"
 st.image(url1, width=300)
 st.image(url2, width=200)
