@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("🎥 Microteaching Video Gallery")
-st.write("This application provides curated microteaching video samples to support your growth as future English educators. You can watch real teaching demonstrations, observe different classroom strategies, and reflect on various teaching styles. Use the dropdown menus to explore lessons by topic or technique, and take notes to guide your own microteaching practice.")
+st.write("This application provides curated microteaching video samples to support your growth as future English educators. You can watch real teaching demonstrations, observe different classroom strategies, and reflect on various teaching styles. Use the dropdown menus on the left (>) to explore lessons by topic or technique, and take notes to guide your own microteaching practice.")
 st.caption("Under Construction; since June 9, 2025")
 
 url1 = "https://github.com/MK316/GNUEED/raw/main/images/MThome.png"
@@ -21,6 +21,6 @@ with col1:
 with col2:
 
     st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
-    st.image(url3, width=100, use_container_width=False, caption="📱 Scan to access app")
+    st.image(url3, width=100, use_container_width=False, caption="📱 Scan to access this page")
     st.markdown("</div>", unsafe_allow_html=True)
 
