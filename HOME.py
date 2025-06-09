@@ -14,12 +14,12 @@ with col1:
         f"<div style='text-align: center;'><img src='{url1}' width='250'></div>",
         unsafe_allow_html=True
     )
-
-with col2:
     st.markdown(
         f"<div style='text-align: center;'><img src='{url2}' width='100'></div>",
         unsafe_allow_html=True
     )
+with col2:
+
     st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
     st.image(url3, width=100, use_container_width=False, caption="📱 Scan to access app")
     st.markdown("</div>", unsafe_allow_html=True)
