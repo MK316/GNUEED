@@ -10,7 +10,13 @@ url2 = "https://github.com/MK316/GNUEED/raw/main/images/gnu.png"
 col1, col2 = st.columns([1, 1])
 
 with col1:
-    st.image(url1, width=250)
+    st.markdown(
+        f"<div style='text-align: center;'><img src='{url1}' width='250'></div>",
+        unsafe_allow_html=True
+    )
 
 with col2:
-    st.image(url2, width=100)
+    st.markdown(
+        f"<div style='text-align: center;'><img src='{url2}' width='100'></div>",
+        unsafe_allow_html=True
+    )
