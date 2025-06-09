@@ -6,7 +6,7 @@ st.caption("Under Construction; since June 9, 2025")
 
 url1 = "https://github.com/MK316/GNUEED/raw/main/images/MThome.png"
 url2 = "https://github.com/MK316/GNUEED/raw/main/images/gnu.png"
-
+url3 = "https://github.com/MK316/GNUEED/raw/main/images/qr.png"
 col1, col2 = st.columns([1, 1])
 
 with col1:
@@ -18,5 +18,9 @@ with col1:
 with col2:
     st.markdown(
         f"<div style='text-align: center;'><img src='{url2}' width='100'></div>",
+        unsafe_allow_html=True
+    )
+        st.markdown(
+        f"<div style='text-align: center;'><img src='{url3}' width='100'></div>",
         unsafe_allow_html=True
     )
