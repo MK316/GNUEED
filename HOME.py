@@ -4,7 +4,13 @@ st.title("🎥 Microteaching Video Gallery")
 st.write("This application provides curated microteaching video samples to support your growth as future English educators. You can watch real teaching demonstrations, observe different classroom strategies, and reflect on various teaching styles. Use the dropdown menus to explore lessons by topic or technique, and take notes to guide your own microteaching practice.")
 st.caption("Under Construction; since June 9, 2025")
 
-url1="https://github.com/MK316/GNUEED/raw/main/images/MThome.png"
-url2="https://github.com/MK316/GNUEED/raw/main/images/gnu.png"
-st.image(url1, width=300)
-st.image(url2, width=200)
+url1 = "https://github.com/MK316/GNUEED/raw/main/images/MThome.png"
+url2 = "https://github.com/MK316/GNUEED/raw/main/images/gnu.png"
+
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    st.image(url1, width=250)
+
+with col2:
+    st.image(url2, width=100)
