@@ -3,11 +3,11 @@ import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Padlet Embedded", layout="centered")
 
-st.title("📝 Collaborative Wall: Padlet")
+st.title("📝 Feedback: Padlet")
 
 st.write("""
-Welcome! Below is a live Padlet wall where you can share your ideas, reflections, or resources.
-Just click and start contributing.
+Welcome! Use the live Padlet wall below to ask questions, share feedback, or respond to others.
+Click anywhere on the board to post—your insights and participation are always appreciated.
 """)
 
 # Replace this with your actual Padlet embed URL
