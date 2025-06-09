@@ -21,6 +21,6 @@ with col2:
         unsafe_allow_html=True
     )
     st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
-    st.image(url3, width=100, use_column_width=False, caption="📱 Scan to access app")
+    st.image(url3, width=100, use_container_width=False, caption="📱 Scan to access app")
     st.markdown("</div>", unsafe_allow_html=True)
 
